@@ -1,4 +1,4 @@
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 public class FindPrimeNumbers{
   
@@ -6,11 +6,11 @@ public class FindPrimeNumbers{
     
     ArrayList<Integer> primeList = new ArrayList<Integer>();
     
-    for(i = start; i <= end; i++){
+    for(int i = start; i <= end; i++){
       
-      boolrean prime = true;
+      boolean prime = true;
       
-      for(j = 2; j <= math.sqrt(i); j++){
+      for(int j = 2; j <= Math.sqrt(i); j++){
        
         if(i % j == 0){
        
@@ -18,6 +18,7 @@ public class FindPrimeNumbers{
           break;
         }
       }
+      
       if(prime){
        
         primeList.add(i);
@@ -30,11 +31,11 @@ public class FindPrimeNumbers{
   
     ArrayList<Integer> primes = getPrimes(0, 10);
     
-    for(i p; primes){
+    for(int p : primes){
     
-      System.out.prinf("%d ", p);
+      System.out.printf("%d ", p);
     }
     
-    System.out,println();
+    System.out.println();
   }
 }
