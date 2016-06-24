@@ -1,0 +1,36 @@
+<html><head>
+  <meta charset="utf-8">
+  <title>My Login Form</title>
+  <link href="new 1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav class="in">
+    <h2>Вход в системата</h2>
+      <form>
+      	<p>Електронна поща:</p>
+      	<input name="username" type="text">
+      	<p>Парола:</p>
+      	<input name="password" type="password">
+      	<input value="Вход" name="submit" id="vhod" type="submit">
+      </form>
+  </nav>
+  <span class="second">
+    <h2>Регистрация</h2>
+      <form>
+      	
+      	<input name="fn" placeholder="Собствено име" type="text">
+      	
+      	<input name="ln" placeholder="Фамилно име" style="margin-left: 1px;" type="text"><br><br>
+      	
+      	<input name="mail" placeholder="Имейл" style="width: 77%;" type="text"><br><br>
+      	
+      	<input name="pass" placeholder="Парола" style="width: 77%;" type="password"><br><br>
+      	
+      	<input value="Регистрация" name="submit" id="reg" type="submit">
+      	
+      	
+      </form>
+  </span>
+
+</body>
+</html>
